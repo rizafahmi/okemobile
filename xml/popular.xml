@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<okezone>
+ <popular>
+  <request channel="0" start="0"/>
+  <status>OK</status>
+  <more offset="10" start="0" total="100">10</more>
+  <news type="3" id="531200">
+   <channel id="340"/>
+   <published>2011-11-18 20:20:00</published>
+
+   <title>Aneh, Wajah Wanita Cantik Ini Tiba-Tiba Berubah Jadi Tua</title>
+   <hits>56867</hits>
+   <url>http://services.okezone.com/raw/detail/2011/11/18/340/531200</url>
+  </news>
+  <news type="3" id="530670">
+   <channel id="55"/>
+   <published>2011-11-17 13:45:57</published>
+
+   <title>Facebook Tuntut Bloger Tanah Air Hingga Rp2 Miliar</title>
+   <hits>55078</hits>
+   <url>http://services.okezone.com/raw/detail/2011/11/17/55/530670</url>
+  </news>
+  <news type="3" id="530897">
+   <channel id="33"/>
+   <published>2011-11-17 22:12:44</published>
+
+   <title>Dikecam, Sekolah Tak Tahu Sasha Grey Bintang Porno 'Hardcore'</title>
+   <hits>51841</hits>
+   <url>http://services.okezone.com/raw/detail/2011/11/17/33/530897</url>
+  </news>
+  <news type="3" id="531404">
+   <channel id="33"/>
+   <published>2011-11-18 22:12:14</published>
+
+   <title>Inilah Artis yang Pernah Jadi Gelandangan</title>
+   <hits>50385</hits>
+   <url>http://services.okezone.com/raw/detail/2011/11/18/33/531404</url>
+  </news>
+  <news type="3" id="531426">
+   <channel id="33"/>
+   <published>2011-11-18 21:06:38</published>
+
+   <title>Putus, Raffi Ahmad Jadikan Yuni Shara Bahan Ledekan</title>
+   <hits>48717</hits>
+   <url>http://services.okezone.com/raw/detail/2011/11/18/33/531426</url>
+  </news>
+  <news type="3" id="530590">
+   <channel id="414"/>
+   <published>2011-11-17 11:49:39</published>
+
+   <title>Foto Ciuman Obama dan Presiden China Beredar</title>
+   <hits>41345</hits>
+   <url>http://services.okezone.com/raw/detail/2011/11/17/414/530590</url>
+  </news>
+  <news type="3" id="531393">
+   <channel id="33"/>
+   <published>2011-11-18 21:23:23</published>
+
+   <title>Foto Payudara Tori Spelling Dipajang Suami</title>
+   <hits>40045</hits>
+   <url>http://services.okezone.com/raw/detail/2011/11/18/33/531393</url>
+  </news>
+  <news type="3" id="531266">
+   <channel id="33"/>
+   <published>2011-11-18 16:17:10</published>
+
+   <title>Ini Bukti Kalau Justin Bieber Tak Hamili Fans</title>
+   <hits>33576</hits>
+   <url>http://services.okezone.com/raw/detail/2011/11/18/33/531266</url>
+  </news>
+  <news type="3" id="530976">
+   <channel id="46"/>
+   <published>2011-11-18 06:30:07</published>
+
+   <title>&quot;Mou Gagalkan Transfer Silva ke Madrid&quot;</title>
+   <hits>30682</hits>
+   <url>http://services.okezone.com/raw/detail/2011/11/18/46/530976</url>
+  </news>
+  <news type="3" id="530947">
+   <channel id="462"/>
+   <published>2011-11-17 23:28:50</published>
+
+   <title>Baddrol Sayangkan Indonesia Tak Turun Full Team</title>
+   <hits>29004</hits>
+   <url>http://services.okezone.com/raw/detail/2011/11/17/462/530947</url>
+  </news>
+ </popular>
+</okezone>

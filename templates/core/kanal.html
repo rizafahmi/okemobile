@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block main_content %}
+<header data-role="header" class="header-footer">
+    <a data-icon="arrow-l" href="#" data-theme="a" data-rel="back">Back</a>
+    <h1><a href="/"><img src="{{ STATIC_URL }}img/Okezone-Logo-Launcher-96x96.png"></a></h1>
+
+</header>
+<div role="content" data-dom-cache="true">
+
+        <ul data-role="listview" data-theme="c">
+            <li data-role="list-divider"><strong>HEADLINE {{ kanal|upper }}</strong></li>
+            <!-- FOR HEADLINES -->
+            {% for news in headline %}
+                <li><a href="{{ news.url }}" data-prefetch>
+                    {% if news.thumbnail %}
+                    <img src="{{ news.thumbnail }}" />
+                    {% else %}
+                    <img src="{{ STATIC_URL }}img/Okezone-Logo-Launcher-96x96.png" />
+                    {% endif %}
+                <h3>{{ news.title|safe }}</h3>
+                <p>{{ news.summary|safe|truncatewords_html:15 }}</p>
+                </a>
+                </li>
+            {% endfor %}
+
+            <!-- END HEADLINES -->
+            <li data-role="list-divider"><strong>BREAKING</strong></li>
+            <!-- FOR BREAKING -->
+            {% for news in breaking %}
+
+                <li><a href="{{ news.url }}">{{ news.title }}</a></li>
+            {% endfor %}
+
+            <!-- END BREAKING -->
+            <li data-role="list-divider"><strong>MOST POPULAR</strong></li>
+            <!-- FOR POPULAR -->
+            {% for news in popular %}
+
+                <li>
+                    <a href="{{ news.url }}" data-prefetch>{{ news.title }}
+                    <span class="ui-li-count ui-btn-up-b ui-btn-corner-all">{{ news.hits }}</span>
+                    </a>
+
+                </li>
+            {% endfor %}
+
+            <!-- END POPULAR -->
+        </ul>
+        <ul data-role="listview" data-theme="b">
+            {% if kanal != 'news' %}
+            <li>
+                <a href="{% url kanal 'news' %}" data-transition="fade" data-prefetch><strong>NEWS</strong></a>
+            </li>
+            {% endif %}
+            {% if kanal != 'internasional' %}
+            <li>
+                <a href="{% url kanal 'internasional' %}" data-transition="slideup" data-prefetch><strong>INTERNASIONAL</strong></a>
+            </li>
+            {% endif %}
+            {% if kanal != 'ekonomi' %}
+            <li>
+                <a href="{% url kanal 'ekonomi' %}" data-transition="slidedown" data-prefetch><strong>EKONOMI</strong></a>
+            </li>
+            {% endif %}
+            {% if kanal != 'bola' %}
+            <li>
+                <a href="{% url kanal 'bola' %}" data-transition="fade" data-prefetch><strong>BOLA</strong></a>
+            </li>
+            {% endif %}
+        </ul>
+
+</div>
+
+{% endblock %}
